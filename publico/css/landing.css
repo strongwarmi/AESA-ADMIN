@@ -1,0 +1,159 @@
+body {
+     /*padding-top: 70px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    box-sizing: border-box;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 10px 0 0;
+}
+
+.row{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.pd-none{
+	padding: 0px !important;
+}
+
+.bold{
+	font-family: Roboto-Bold;
+}
+
+nav.navbar.navbar-inverse.navbar {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+a.navbar-brand {
+    float: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.navbar-brand{
+    padding: 0px;
+}
+.top-logo{
+    text-align: center;
+    margin: auto;
+}
+ul.nav.navbar-nav {
+    float: none;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(158, 158, 158, 0.38);
+    padding: 20px 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 143, 181, 0.64);
+    color: white;
+}
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.navbar-nav>li a{
+	font-family: Roboto-Bold;
+	font-size: 20px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+.btn-default{
+	background-color: #008FB5;
+	border: #008FB5;
+	color: white;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.wrapper-img{
+	min-height: 300px;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.img-costura{
+	background-image: url(../img/costura.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.img-costura.img-dental{
+    background-image: url(../img/denta.1.jpg);
+}
+.img-aesa1{
+  background-image: url(../img/aesa1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
+.content-txt {
+    margin: auto;
+    padding: 15px 0;
+    line-height: 1.9;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    text-align: justify;
+}
+.box-facebook{
+	font-family: Roboto-Regular;
+	color: #008FB5;
+	padding-bottom: 40px;
+    width: 300px;
+    margin: auto;
+}
+.title-fb{
+	text-align: left;
+}
+@media (max-width: 768px){
+	.content-txt{
+		width: 100%;
+	}
+    .wrapper-img {
+        max-height: 250px;
+        height: 300px;
+        margin-bottom: 0px;
+    }
+/*    .card-center {
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+        width: calc(90.5% - 16px);
+        margin: auto;
+        padding: 25px 5px;
+        position: relative;
+        top: -38px;
+        background-color: white;
+    }*/
+    iframe.fb-plugin {
+        width: 100%;
+    }
+    .navbar-nav >li{ margin: 0 5px 5px;}
+    .card-center>h1.text-left{
+        text-align: center !important;
+    }
+    .box-facebook{
+        width: auto;
+        padding: 0;
+    }
+    .title-fb {
+        padding-left: 24px;
+    }
+    #eventos {
+        padding: 0 0 50px 0;
+    }
+    .btn.btn-default-back{
+        padding: 6px 20px;
+    }
+}

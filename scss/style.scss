@@ -1,0 +1,72 @@
+@import '_mixins';
+@import '_variables';
+@import 'theme-indigo';
+@import 'login';
+@import 'articulo';
+
+/* Navbar ====================================== */
+@import '_navbar'; 
+
+/* Media ======================================= */
+@import '_media.scss';
+ 
+/* General ===================================== */
+@import '_general.scss'; 
+
+/* Dashboard =================================== */
+@import '_dashboard.scss';
+
+/* Card ======================================== */
+@import '_card.scss';
+
+/* Checkbox & Radio ============================ */
+@import '_checkboxradio.scss';
+
+/* DateTime Picker ============================= */
+@import '_datetimepicker.scss';
+
+/* Bootstrap Select ============================ */
+@import '_bootstrapselect.scss'; 
+
+/* Nav Tabs ==================================== */
+@import '_navtabs.scss';
+
+
+/* Collapse ==================================== */
+@import '_collapse.scss';
+
+/* Tables ====================================== */
+@import '_tables.scss';
+
+
+/* Progress Bars =============================== */
+@import '_progressbars.scss';
+
+/* Breadcrumbs ================================= */
+@import '_breadcrumbs.scss';
+
+/* Pagination & Pager ========================== */
+@import '_pagination.scss';
+
+/* Form Wizard ================================= */
+@import '_formwizard.scss';
+
+/* Waves ======================================= */
+@import '_waveseffect.scss';
+
+/* Page Loader ================================= */
+@import '_pageloader.scss';
+ 
+/* Preloaders ================================== */
+@import '_preloaders.scss';
+
+/* Navbars ===================================== */
+@import '_navbar.scss';
+
+
+/* Left Sidebar & Overlay ====================== */
+@import '_leftsidebaroverlay.scss';
+
+
+/* Charts ====================================== */
+@import '_charts.scss';

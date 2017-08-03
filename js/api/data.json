@@ -1,0 +1,24 @@
+
+{
+   "menu": {
+     "id": "01"
+     "name": "",
+     "dni": "",
+     "phone": "",
+     "date": "12/08/1959",
+     "data": {
+       "family": [
+         {"fathers": "New", "onclick": "CreateNewDoc()"},
+         {"children": "Open", "onclick": "OpenDoc()"},
+         {"wife": [
+                     {"id" : "0001"},
+                     {"name" : "Alicia Romero Quispe"},
+                     {"dni" : "96557848"},
+                     {"phone" : "96557848"},
+                    ]
+
+         }
+       ]
+     }
+   }
+}

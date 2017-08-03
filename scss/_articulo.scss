@@ -1,0 +1,34 @@
+#container-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#container-buscador {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#container-buscador .input-group {
+    width: 60%;
+}
+
+#container-nuevo .form-group {
+    margin-bottom: 0 !important;
+}
+
+#container-nuevo {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

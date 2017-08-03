@@ -1,0 +1,16 @@
+#login {
+    height: 500px;
+}
+
+#container-login {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputUsuario,
+#inputContraseña {
+    width: 100%;
+}
